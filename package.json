@@ -1,0 +1,23 @@
+{
+  "name": "cc_bot_discord_javascript",
+  "version": "1.0.0",
+  "description": "création bot carapuce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syrius22/cc_bot_discord_javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syrius22/cc_bot_discord_javascript/issues"
+  },
+  "homepage": "https://github.com/Syrius22/cc_bot_discord_javascript#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "pm2": "^4.5.0"
+  }
+}
