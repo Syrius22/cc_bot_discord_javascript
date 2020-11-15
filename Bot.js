@@ -21,9 +21,42 @@ bot.on("message",message=> {
 		const emojiliste = message.guild.emojis.cache.map((e) => e);
 		message.channel.send(emojiliste);
 	}
+	if (message.content === "!caraquiz") {
+		const points = 0
+		message.channel.send({
+			embed: {
+				color: 3447003,
+				description: "__**Question numéro 1**__",
+				fields: [
+					{
+						name: "Qui est le créateur",
+					value: "a- Syrius22  b- Moi-même",}
+				]
+			}
+		},
+		if (message.content === "a") {
+			const points += 1 ;
+			message.reply("Bonne réponse !");
+		}
+		message.channel.send({
+			embed: {
+				color: 3447003,
+				description: "__**Question numéro 2**__",
+				fields: [
+					{
+						name: "Quel est le meilleur starter pokémon ?",
+					value: "a- Salamèche  b- Carapuce c- Bulbizarre",}
+				]
+			}
+		},
+		if (message.content === "b") {
+			const points += 1 ;
+			message.reply("Bonne réponse !");
+		}
+		message.chanel.send("Tu as un score de",points,"!")
+					
+	}
 	if (message.content === "!carahelp") {
-	//on envoie un message de type embed dans le channel d'où
-	//provient le message
 		message.channel.send({
 			embed: {
 				color: 3447003,
