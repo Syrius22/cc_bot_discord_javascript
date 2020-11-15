@@ -13,7 +13,7 @@ bot.on("message",message=> {
 	if (message.content === "!carabonjour") {
 		message.reply("carabonjour à toi !");
 	}
-	if (message.content.startsWith("!pin")) {
+	if (message.content.startsWith("!pin") & (message.content != "!ping")) {
 		message.pin();
 	}
 	if (message.content === "!emojiliste") 
