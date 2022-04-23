@@ -4,7 +4,7 @@ bot.on("ready", function() {
 	console.log("carapuce est dans les places !");
 });
 
-bot.login("Nzc3MTYzMzI3MDE2Nzk2MTYw.X6_bwA.nVzf0P3bWKQubiw2gTpNQuy2mtg");
+bot.login(""); //mettre le token du bot ici
 
 bot.on("message",message=> {
 	if (message.content === "!ping") {
