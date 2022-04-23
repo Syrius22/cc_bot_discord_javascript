@@ -1,7 +1,7 @@
 const Discord = require("discord.js");  //node Bot.js pour lancer le bot
 const bot = new Discord.Client();
 bot.on("ready", function() {
-	console.log("carapuce est dans les places !");
+	console.log("carapuce est dans la place !");
 });
 
 bot.login(""); //mettre le token du bot ici
